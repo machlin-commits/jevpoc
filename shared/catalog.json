@@ -1,0 +1,1793 @@
+[
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "category": "Languages",
+    "slug": "typescript",
+    "hex": "#3178C6",
+    "keywords": [
+      "typescript",
+      "web",
+      "frontend",
+      "javascript"
+    ]
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "Languages",
+    "slug": "javascript",
+    "hex": "#F7DF1E",
+    "keywords": [
+      "javascript",
+      "web",
+      "node",
+      "frontend"
+    ]
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "Languages",
+    "slug": "python",
+    "hex": "#3776AB",
+    "keywords": [
+      "python",
+      "ai",
+      "data",
+      "backend",
+      "agent"
+    ]
+  },
+  {
+    "id": "swift",
+    "name": "Swift",
+    "category": "Languages",
+    "slug": "swift",
+    "hex": "#F05138",
+    "keywords": [
+      "swift",
+      "ios",
+      "macos",
+      "apple",
+      "native"
+    ]
+  },
+  {
+    "id": "kotlin",
+    "name": "Kotlin",
+    "category": "Languages",
+    "slug": "kotlin",
+    "hex": "#7F52FF",
+    "keywords": [
+      "kotlin",
+      "android",
+      "mobile"
+    ]
+  },
+  {
+    "id": "csharp",
+    "name": "C#",
+    "category": "Languages",
+    "slug": "csharp",
+    "hex": "#512BD4",
+    "keywords": [
+      "c#",
+      "microsoft",
+      "enterprise",
+      "dotnet"
+    ]
+  },
+  {
+    "id": "go",
+    "name": "Go",
+    "category": "Languages",
+    "slug": "go",
+    "hex": "#00ADD8",
+    "keywords": [
+      "go",
+      "backend",
+      "cloud",
+      "microservice"
+    ]
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "category": "Languages",
+    "slug": "rust",
+    "hex": "#000000",
+    "keywords": [
+      "rust",
+      "systems",
+      "performance",
+      "desktop"
+    ]
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "category": "Languages",
+    "slug": "openjdk",
+    "hex": "#000000",
+    "keywords": [
+      "java",
+      "enterprise",
+      "jvm",
+      "backend"
+    ]
+  },
+  {
+    "id": "dart",
+    "name": "Dart",
+    "category": "Languages",
+    "slug": "dart",
+    "hex": "#0175C2",
+    "keywords": [
+      "dart",
+      "flutter",
+      "mobile"
+    ]
+  },
+  {
+    "id": "cpp",
+    "name": "C++",
+    "category": "Languages",
+    "slug": "cplusplus",
+    "hex": "#00599C",
+    "keywords": [
+      "c++",
+      "native",
+      "performance",
+      "gaming"
+    ]
+  },
+  {
+    "id": "c",
+    "name": "C",
+    "category": "Languages",
+    "slug": "c",
+    "hex": "#A8B9CC",
+    "keywords": [
+      "c",
+      "embedded",
+      "systems"
+    ]
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "category": "Languages",
+    "slug": "ruby",
+    "hex": "#CC342D",
+    "keywords": [
+      "ruby",
+      "rails",
+      "web"
+    ]
+  },
+  {
+    "id": "php",
+    "name": "PHP",
+    "category": "Languages",
+    "slug": "php",
+    "hex": "#777BB4",
+    "keywords": [
+      "php",
+      "web",
+      "wordpress"
+    ]
+  },
+  {
+    "id": "elixir",
+    "name": "Elixir",
+    "category": "Languages",
+    "slug": "elixir",
+    "hex": "#4B275F",
+    "keywords": [
+      "elixir",
+      "realtime",
+      "concurrent"
+    ]
+  },
+  {
+    "id": "scala",
+    "name": "Scala",
+    "category": "Languages",
+    "slug": "scala",
+    "hex": "#DC322F",
+    "keywords": [
+      "scala",
+      "spark",
+      "data"
+    ]
+  },
+  {
+    "id": "r",
+    "name": "R",
+    "category": "Languages",
+    "slug": "r",
+    "hex": "#276DC3",
+    "keywords": [
+      "r",
+      "statistics",
+      "data"
+    ]
+  },
+  {
+    "id": "julia",
+    "name": "Julia",
+    "category": "Languages",
+    "slug": "julia",
+    "hex": "#9558B2",
+    "keywords": [
+      "julia",
+      "scientific",
+      "computing"
+    ]
+  },
+  {
+    "id": "kotlin-multiplatform",
+    "name": "Kotlin Multiplatform",
+    "category": "Languages",
+    "slug": "kotlin",
+    "hex": "#7F52FF",
+    "keywords": [
+      "kotlin multiplatform",
+      "cross-platform",
+      "mobile",
+      "ios",
+      "android"
+    ]
+  },
+  {
+    "id": "zig",
+    "name": "Zig",
+    "category": "Languages",
+    "slug": "zig",
+    "hex": "#F7A41D",
+    "keywords": [
+      "zig",
+      "systems",
+      "native"
+    ]
+  },
+  {
+    "id": "react",
+    "name": "React",
+    "category": "Frontend / Mobile",
+    "slug": "react",
+    "hex": "#61DAFB",
+    "keywords": [
+      "react",
+      "web",
+      "frontend",
+      "saas"
+    ]
+  },
+  {
+    "id": "nextjs",
+    "name": "Next.js",
+    "category": "Frontend / Mobile",
+    "slug": "nextdotjs",
+    "hex": "#000000",
+    "keywords": [
+      "next.js",
+      "web",
+      "saas",
+      "b2b",
+      "next.js"
+    ]
+  },
+  {
+    "id": "vue",
+    "name": "Vue",
+    "category": "Frontend / Mobile",
+    "slug": "vuedotjs",
+    "hex": "#4FC08D",
+    "keywords": [
+      "vue",
+      "web",
+      "frontend"
+    ]
+  },
+  {
+    "id": "nuxt",
+    "name": "Nuxt",
+    "category": "Frontend / Mobile",
+    "slug": "nuxtdotjs",
+    "hex": "#00DC82",
+    "keywords": [
+      "nuxt",
+      "vue",
+      "web"
+    ]
+  },
+  {
+    "id": "angular",
+    "name": "Angular",
+    "category": "Frontend / Mobile",
+    "slug": "angular",
+    "hex": "#0F0F11",
+    "keywords": [
+      "angular",
+      "enterprise",
+      "web"
+    ]
+  },
+  {
+    "id": "svelte",
+    "name": "Svelte",
+    "category": "Frontend / Mobile",
+    "slug": "svelte",
+    "hex": "#FF3E00",
+    "keywords": [
+      "svelte",
+      "web",
+      "frontend"
+    ]
+  },
+  {
+    "id": "astro",
+    "name": "Astro",
+    "category": "Frontend / Mobile",
+    "slug": "astro",
+    "hex": "#BC52EE",
+    "keywords": [
+      "astro",
+      "website",
+      "content"
+    ]
+  },
+  {
+    "id": "tailwind-css",
+    "name": "Tailwind CSS",
+    "category": "Frontend / Mobile",
+    "slug": "tailwindcss",
+    "hex": "#06B6D4",
+    "keywords": [
+      "tailwind css",
+      "web",
+      "frontend",
+      "css",
+      "saas"
+    ]
+  },
+  {
+    "id": "html5",
+    "name": "HTML5",
+    "category": "Frontend / Mobile",
+    "slug": "html5",
+    "hex": "#E34F26",
+    "keywords": [
+      "html5",
+      "web",
+      "website"
+    ]
+  },
+  {
+    "id": "css3",
+    "name": "CSS3",
+    "category": "Frontend / Mobile",
+    "slug": "css3",
+    "hex": "#1572B6",
+    "keywords": [
+      "css3",
+      "web",
+      "styling"
+    ]
+  },
+  {
+    "id": "swiftui",
+    "name": "SwiftUI",
+    "category": "Frontend / Mobile",
+    "slug": "swift",
+    "hex": "#F05138",
+    "keywords": [
+      "swiftui",
+      "ios",
+      "macos",
+      "native",
+      "apple"
+    ]
+  },
+  {
+    "id": "appkit",
+    "name": "AppKit",
+    "category": "Frontend / Mobile",
+    "slug": "apple",
+    "hex": "#000000",
+    "keywords": [
+      "appkit",
+      "macos",
+      "native",
+      "desktop"
+    ]
+  },
+  {
+    "id": "mac-catalyst",
+    "name": "Mac Catalyst",
+    "category": "Frontend / Mobile",
+    "slug": "apple",
+    "hex": "#000000",
+    "keywords": [
+      "mac catalyst",
+      "ios",
+      "macos",
+      "catalyst"
+    ]
+  },
+  {
+    "id": "ios",
+    "name": "iOS",
+    "category": "Frontend / Mobile",
+    "slug": "apple",
+    "hex": "#000000",
+    "keywords": [
+      "ios",
+      "ios",
+      "iphone",
+      "native"
+    ]
+  },
+  {
+    "id": "macos",
+    "name": "macOS",
+    "category": "Frontend / Mobile",
+    "slug": "apple",
+    "hex": "#000000",
+    "keywords": [
+      "macos",
+      "macos",
+      "desktop",
+      "native"
+    ]
+  },
+  {
+    "id": "react-native",
+    "name": "React Native",
+    "category": "Frontend / Mobile",
+    "slug": "react",
+    "hex": "#61DAFB",
+    "keywords": [
+      "react native",
+      "cross-platform",
+      "mobile",
+      "ios",
+      "android"
+    ]
+  },
+  {
+    "id": "flutter",
+    "name": "Flutter",
+    "category": "Frontend / Mobile",
+    "slug": "flutter",
+    "hex": "#02569B",
+    "keywords": [
+      "flutter",
+      "cross-platform",
+      "mobile",
+      "desktop"
+    ]
+  },
+  {
+    "id": "electron",
+    "name": "Electron",
+    "category": "Frontend / Mobile",
+    "slug": "electron",
+    "hex": "#47848F",
+    "keywords": [
+      "electron",
+      "desktop",
+      "cross-platform",
+      "javascript"
+    ]
+  },
+  {
+    "id": "tauri",
+    "name": "Tauri",
+    "category": "Frontend / Mobile",
+    "slug": "tauri",
+    "hex": "#24C8D8",
+    "keywords": [
+      "tauri",
+      "desktop",
+      "cross-platform",
+      "rust"
+    ]
+  },
+  {
+    "id": "android",
+    "name": "Android",
+    "category": "Frontend / Mobile",
+    "slug": "android",
+    "hex": "#3DDC84",
+    "keywords": [
+      "android",
+      "android",
+      "mobile"
+    ]
+  },
+  {
+    "id": "expo",
+    "name": "Expo",
+    "category": "Frontend / Mobile",
+    "slug": "expo",
+    "hex": "#1C2024",
+    "keywords": [
+      "expo",
+      "react",
+      "native",
+      "mobile"
+    ]
+  },
+  {
+    "id": "vite",
+    "name": "Vite",
+    "category": "Frontend / Mobile",
+    "slug": "vite",
+    "hex": "#9135FF",
+    "keywords": [
+      "vite",
+      "web",
+      "build"
+    ]
+  },
+  {
+    "id": "remix",
+    "name": "Remix",
+    "category": "Frontend / Mobile",
+    "slug": "remix",
+    "hex": "#000000",
+    "keywords": [
+      "remix",
+      "web",
+      "react"
+    ]
+  },
+  {
+    "id": "gatsby",
+    "name": "Gatsby",
+    "category": "Frontend / Mobile",
+    "slug": "gatsby",
+    "hex": "#663399",
+    "keywords": [
+      "gatsby",
+      "web",
+      "static"
+    ]
+  },
+  {
+    "id": "solidjs",
+    "name": "SolidJS",
+    "category": "Frontend / Mobile",
+    "slug": "solid",
+    "hex": "#2C4F7C",
+    "keywords": [
+      "solidjs",
+      "web",
+      "frontend"
+    ]
+  },
+  {
+    "id": "qwik",
+    "name": "Qwik",
+    "category": "Frontend / Mobile",
+    "slug": "qwik",
+    "hex": "#AC7EF4",
+    "keywords": [
+      "qwik",
+      "web",
+      "frontend"
+    ]
+  },
+  {
+    "id": "alpinejs",
+    "name": "Alpine.js",
+    "category": "Frontend / Mobile",
+    "slug": "alpinedotjs",
+    "hex": "#8BC0D0",
+    "keywords": [
+      "alpine.js",
+      "web",
+      "frontend"
+    ]
+  },
+  {
+    "id": "lit",
+    "name": "Lit",
+    "category": "Frontend / Mobile",
+    "slug": "lit",
+    "hex": "#324FFF",
+    "keywords": [
+      "lit",
+      "web",
+      "components"
+    ]
+  },
+  {
+    "id": "bootstrap",
+    "name": "Bootstrap",
+    "category": "Frontend / Mobile",
+    "slug": "bootstrap",
+    "hex": "#7952B3",
+    "keywords": [
+      "bootstrap",
+      "web",
+      "css"
+    ]
+  },
+  {
+    "id": "webflow",
+    "name": "Webflow",
+    "category": "Frontend / Mobile",
+    "slug": "webflow",
+    "hex": "#146EF5",
+    "keywords": [
+      "webflow",
+      "website",
+      "design"
+    ]
+  },
+  {
+    "id": "fastapi",
+    "name": "FastAPI",
+    "category": "Backend & APIs",
+    "slug": "fastapi",
+    "hex": "#009688",
+    "keywords": [
+      "fastapi",
+      "python",
+      "api",
+      "ai",
+      "backend"
+    ]
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "category": "Backend & APIs",
+    "slug": "nodedotjs",
+    "hex": "#5FA04E",
+    "keywords": [
+      "node.js",
+      "javascript",
+      "backend",
+      "realtime"
+    ]
+  },
+  {
+    "id": "express",
+    "name": "Express",
+    "category": "Backend & APIs",
+    "slug": "express",
+    "hex": "#0A0A0A",
+    "keywords": [
+      "express",
+      "node",
+      "backend",
+      "api"
+    ]
+  },
+  {
+    "id": "nestjs",
+    "name": "NestJS",
+    "category": "Backend & APIs",
+    "slug": "nestjs",
+    "hex": "#E0234E",
+    "keywords": [
+      "nestjs",
+      "typescript",
+      "enterprise",
+      "backend"
+    ]
+  },
+  {
+    "id": "dotnet",
+    "name": ".NET 9",
+    "category": "Backend & APIs",
+    "slug": "dotnet",
+    "hex": "#512BD4",
+    "keywords": [
+      ".net 9",
+      "microsoft",
+      "enterprise",
+      "c#",
+      "backend"
+    ]
+  },
+  {
+    "id": "aspnet-core",
+    "name": "ASP.NET Core",
+    "category": "Backend & APIs",
+    "slug": "dotnet",
+    "hex": "#512BD4",
+    "keywords": [
+      "asp.net core",
+      "microsoft",
+      "api",
+      "enterprise"
+    ]
+  },
+  {
+    "id": "django",
+    "name": "Django",
+    "category": "Backend & APIs",
+    "slug": "django",
+    "hex": "#092E20",
+    "keywords": [
+      "django",
+      "python",
+      "web",
+      "backend"
+    ]
+  },
+  {
+    "id": "flask",
+    "name": "Flask",
+    "category": "Backend & APIs",
+    "slug": "flask",
+    "hex": "#3BABC3",
+    "keywords": [
+      "flask",
+      "python",
+      "api",
+      "backend"
+    ]
+  },
+  {
+    "id": "spring-boot",
+    "name": "Spring Boot",
+    "category": "Backend & APIs",
+    "slug": "springboot",
+    "hex": "#6DB33F",
+    "keywords": [
+      "spring boot",
+      "java",
+      "enterprise",
+      "backend"
+    ]
+  },
+  {
+    "id": "rails",
+    "name": "Rails",
+    "category": "Backend & APIs",
+    "slug": "rubyonrails",
+    "hex": "#D30001",
+    "keywords": [
+      "rails",
+      "ruby",
+      "saas",
+      "backend"
+    ]
+  },
+  {
+    "id": "laravel",
+    "name": "Laravel",
+    "category": "Backend & APIs",
+    "slug": "laravel",
+    "hex": "#FF2D20",
+    "keywords": [
+      "laravel",
+      "php",
+      "backend"
+    ]
+  },
+  {
+    "id": "phoenix",
+    "name": "Phoenix",
+    "category": "Backend & APIs",
+    "slug": "phoenixframework",
+    "hex": "#FD4F00",
+    "keywords": [
+      "phoenix",
+      "elixir",
+      "realtime"
+    ]
+  },
+  {
+    "id": "graphql",
+    "name": "GraphQL",
+    "category": "Backend & APIs",
+    "slug": "graphql",
+    "hex": "#E10098",
+    "keywords": [
+      "graphql",
+      "api",
+      "query"
+    ]
+  },
+  {
+    "id": "grpc",
+    "name": "gRPC",
+    "category": "Backend & APIs",
+    "slug": "google",
+    "hex": "#4285F4",
+    "keywords": [
+      "grpc",
+      "rpc",
+      "microservice"
+    ]
+  },
+  {
+    "id": "hono",
+    "name": "Hono",
+    "category": "Backend & APIs",
+    "slug": "hono",
+    "hex": "#E36002",
+    "keywords": [
+      "hono",
+      "edge",
+      "api"
+    ]
+  },
+  {
+    "id": "fastify",
+    "name": "Fastify",
+    "category": "Backend & APIs",
+    "slug": "fastify",
+    "hex": "#000000",
+    "keywords": [
+      "fastify",
+      "node",
+      "api"
+    ]
+  },
+  {
+    "id": "deno",
+    "name": "Deno",
+    "category": "Backend & APIs",
+    "slug": "deno",
+    "hex": "#000000",
+    "keywords": [
+      "deno",
+      "typescript",
+      "runtime"
+    ]
+  },
+  {
+    "id": "bun",
+    "name": "Bun",
+    "category": "Backend & APIs",
+    "slug": "bun",
+    "hex": "#000000",
+    "keywords": [
+      "bun",
+      "javascript",
+      "runtime"
+    ]
+  },
+  {
+    "id": "socketio",
+    "name": "Socket.IO",
+    "category": "Backend & APIs",
+    "slug": "socketdotio",
+    "hex": "#010101",
+    "keywords": [
+      "socket.io",
+      "realtime",
+      "websocket"
+    ]
+  },
+  {
+    "id": "temporal",
+    "name": "Temporal",
+    "category": "Backend & APIs",
+    "slug": "temporal",
+    "hex": "#000000",
+    "keywords": [
+      "temporal",
+      "workflow",
+      "durable",
+      "orchestration"
+    ]
+  },
+  {
+    "id": "autogen",
+    "name": "Microsoft AutoGen",
+    "category": "Agent Frameworks",
+    "slug": "microsoft",
+    "hex": "#0078D4",
+    "keywords": [
+      "microsoft autogen",
+      "agent",
+      "multi-agent",
+      "orchestration",
+      "microsoft",
+      "autonomous"
+    ]
+  },
+  {
+    "id": "semantic-kernel",
+    "name": "Semantic Kernel",
+    "category": "Agent Frameworks",
+    "slug": "microsoft",
+    "hex": "#0078D4",
+    "keywords": [
+      "semantic kernel",
+      "agent",
+      "microsoft",
+      "enterprise",
+      "orchestration"
+    ]
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain",
+    "category": "Agent Frameworks",
+    "slug": "langchain",
+    "hex": "#7FC8FF",
+    "keywords": [
+      "langchain",
+      "ai",
+      "agent",
+      "rag",
+      "orchestration"
+    ]
+  },
+  {
+    "id": "langgraph",
+    "name": "LangGraph",
+    "category": "Agent Frameworks",
+    "slug": "langchain",
+    "hex": "#7FC8FF",
+    "keywords": [
+      "langgraph",
+      "multi-agent",
+      "graph",
+      "workflow"
+    ]
+  },
+  {
+    "id": "crewai",
+    "name": "CrewAI",
+    "category": "Agent Frameworks",
+    "slug": "crewai",
+    "hex": "#FF5A50",
+    "keywords": [
+      "crewai",
+      "multi-agent",
+      "autonomous",
+      "crew"
+    ]
+  },
+  {
+    "id": "llamaindex",
+    "name": "LlamaIndex",
+    "category": "Agent Frameworks",
+    "slug": "llamaindex",
+    "hex": "#555555",
+    "keywords": [
+      "llamaindex",
+      "rag",
+      "agent",
+      "retrieval"
+    ]
+  },
+  {
+    "id": "azure-ai-foundry",
+    "name": "Azure AI Foundry",
+    "category": "Agent Frameworks",
+    "slug": "microsoftazure",
+    "hex": "#0078D4",
+    "keywords": [
+      "azure ai foundry",
+      "azure",
+      "microsoft",
+      "ai",
+      "agent"
+    ]
+  },
+  {
+    "id": "openai-api",
+    "name": "OpenAI API",
+    "category": "Agent Frameworks",
+    "slug": "openai",
+    "hex": "#412991",
+    "keywords": [
+      "openai api",
+      "ai",
+      "agent",
+      "llm",
+      "gpt"
+    ]
+  },
+  {
+    "id": "anthropic-claude",
+    "name": "Anthropic Claude",
+    "category": "Agent Frameworks",
+    "slug": "anthropic",
+    "hex": "#191919",
+    "keywords": [
+      "anthropic claude",
+      "ai",
+      "agent",
+      "llm",
+      "claude"
+    ]
+  },
+  {
+    "id": "copilot-studio",
+    "name": "Microsoft Copilot Studio",
+    "category": "Agent Frameworks",
+    "slug": "microsoft",
+    "hex": "#0078D4",
+    "keywords": [
+      "microsoft copilot studio",
+      "microsoft",
+      "enterprise",
+      "agent",
+      "copilot"
+    ]
+  },
+  {
+    "id": "hugging-face",
+    "name": "Hugging Face",
+    "category": "Agent Frameworks",
+    "slug": "huggingface",
+    "hex": "#FFD21E",
+    "keywords": [
+      "hugging face",
+      "ai",
+      "models",
+      "machine",
+      "learning"
+    ]
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "category": "Agent Frameworks",
+    "slug": "ollama",
+    "hex": "#000000",
+    "keywords": [
+      "ollama",
+      "local",
+      "ai",
+      "llm"
+    ]
+  },
+  {
+    "id": "pytorch",
+    "name": "PyTorch",
+    "category": "Agent Frameworks",
+    "slug": "pytorch",
+    "hex": "#EE4C2C",
+    "keywords": [
+      "pytorch",
+      "machine",
+      "learning",
+      "ai"
+    ]
+  },
+  {
+    "id": "tensorflow",
+    "name": "TensorFlow",
+    "category": "Agent Frameworks",
+    "slug": "tensorflow",
+    "hex": "#FF6F00",
+    "keywords": [
+      "tensorflow",
+      "machine",
+      "learning",
+      "ai"
+    ]
+  },
+  {
+    "id": "scikit-learn",
+    "name": "scikit-learn",
+    "category": "Agent Frameworks",
+    "slug": "scikitlearn",
+    "hex": "#F7931E",
+    "keywords": [
+      "scikit-learn",
+      "machine",
+      "learning",
+      "data"
+    ]
+  },
+  {
+    "id": "jupyter",
+    "name": "Jupyter",
+    "category": "Agent Frameworks",
+    "slug": "jupyter",
+    "hex": "#F37626",
+    "keywords": [
+      "jupyter",
+      "data",
+      "python",
+      "notebook"
+    ]
+  },
+  {
+    "id": "apache-spark",
+    "name": "Apache Spark",
+    "category": "Agent Frameworks",
+    "slug": "apachespark",
+    "hex": "#E25A1C",
+    "keywords": [
+      "apache spark",
+      "data",
+      "streaming",
+      "analytics"
+    ]
+  },
+  {
+    "id": "apache-kafka",
+    "name": "Apache Kafka",
+    "category": "Agent Frameworks",
+    "slug": "apachekafka",
+    "hex": "#231F20",
+    "keywords": [
+      "apache kafka",
+      "realtime",
+      "streaming",
+      "media",
+      "pipeline"
+    ]
+  },
+  {
+    "id": "apache-flink",
+    "name": "Apache Flink",
+    "category": "Agent Frameworks",
+    "slug": "apacheflink",
+    "hex": "#E6526F",
+    "keywords": [
+      "apache flink",
+      "realtime",
+      "streaming",
+      "pipeline"
+    ]
+  },
+  {
+    "id": "ffmpeg",
+    "name": "FFmpeg",
+    "category": "Agent Frameworks",
+    "slug": "ffmpeg",
+    "hex": "#007808",
+    "keywords": [
+      "ffmpeg",
+      "media",
+      "video",
+      "streaming",
+      "pipeline"
+    ]
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "Database & Cache",
+    "slug": "postgresql",
+    "hex": "#4169E1",
+    "keywords": [
+      "postgresql",
+      "database",
+      "sql",
+      "saas",
+      "postgres"
+    ]
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "category": "Database & Cache",
+    "slug": "redis",
+    "hex": "#FF4438",
+    "keywords": [
+      "redis",
+      "cache",
+      "realtime",
+      "streaming"
+    ]
+  },
+  {
+    "id": "supabase",
+    "name": "Supabase",
+    "category": "Database & Cache",
+    "slug": "supabase",
+    "hex": "#3FCF8E",
+    "keywords": [
+      "supabase",
+      "database",
+      "auth",
+      "postgres",
+      "saas"
+    ]
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "Database & Cache",
+    "slug": "mongodb",
+    "hex": "#47A248",
+    "keywords": [
+      "mongodb",
+      "database",
+      "document"
+    ]
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL",
+    "category": "Database & Cache",
+    "slug": "mysql",
+    "hex": "#4479A1",
+    "keywords": [
+      "mysql",
+      "database",
+      "sql"
+    ]
+  },
+  {
+    "id": "sqlite",
+    "name": "SQLite",
+    "category": "Database & Cache",
+    "slug": "sqlite",
+    "hex": "#003B57",
+    "keywords": [
+      "sqlite",
+      "local",
+      "mobile",
+      "database"
+    ]
+  },
+  {
+    "id": "azure-cosmos-db",
+    "name": "Azure Cosmos DB",
+    "category": "Database & Cache",
+    "slug": "microsoftazure",
+    "hex": "#0078D4",
+    "keywords": [
+      "azure cosmos db",
+      "microsoft",
+      "azure",
+      "database"
+    ]
+  },
+  {
+    "id": "pinecone",
+    "name": "Pinecone",
+    "category": "Database & Cache",
+    "slug": "pinecone",
+    "hex": "#555555",
+    "keywords": [
+      "pinecone",
+      "ai",
+      "rag",
+      "vector",
+      "database"
+    ]
+  },
+  {
+    "id": "weaviate",
+    "name": "Weaviate",
+    "category": "Database & Cache",
+    "slug": "weaviate",
+    "hex": "#555555",
+    "keywords": [
+      "weaviate",
+      "ai",
+      "vector",
+      "rag"
+    ]
+  },
+  {
+    "id": "qdrant",
+    "name": "Qdrant",
+    "category": "Database & Cache",
+    "slug": "qdrant",
+    "hex": "#DC244C",
+    "keywords": [
+      "qdrant",
+      "ai",
+      "vector",
+      "rag"
+    ]
+  },
+  {
+    "id": "chroma",
+    "name": "Chroma",
+    "category": "Database & Cache",
+    "slug": "chroma",
+    "hex": "#555555",
+    "keywords": [
+      "chroma",
+      "ai",
+      "vector",
+      "rag"
+    ]
+  },
+  {
+    "id": "elasticsearch",
+    "name": "Elasticsearch",
+    "category": "Database & Cache",
+    "slug": "elasticsearch",
+    "hex": "#005571",
+    "keywords": [
+      "elasticsearch",
+      "search",
+      "analytics"
+    ]
+  },
+  {
+    "id": "clickhouse",
+    "name": "ClickHouse",
+    "category": "Database & Cache",
+    "slug": "clickhouse",
+    "hex": "#FFCC01",
+    "keywords": [
+      "clickhouse",
+      "analytics",
+      "streaming",
+      "data"
+    ]
+  },
+  {
+    "id": "duckdb",
+    "name": "DuckDB",
+    "category": "Database & Cache",
+    "slug": "duckdb",
+    "hex": "#FFF000",
+    "keywords": [
+      "duckdb",
+      "analytics",
+      "data"
+    ]
+  },
+  {
+    "id": "firebase",
+    "name": "Firebase",
+    "category": "Database & Cache",
+    "slug": "firebase",
+    "hex": "#DD2C00",
+    "keywords": [
+      "firebase",
+      "mobile",
+      "realtime",
+      "database"
+    ]
+  },
+  {
+    "id": "prisma",
+    "name": "Prisma",
+    "category": "Database & Cache",
+    "slug": "prisma",
+    "hex": "#2D3748",
+    "keywords": [
+      "prisma",
+      "typescript",
+      "database",
+      "orm"
+    ]
+  },
+  {
+    "id": "drizzle",
+    "name": "Drizzle",
+    "category": "Database & Cache",
+    "slug": "drizzle",
+    "hex": "#C5F74F",
+    "keywords": [
+      "drizzle",
+      "typescript",
+      "sql",
+      "orm"
+    ]
+  },
+  {
+    "id": "dynamodb",
+    "name": "DynamoDB",
+    "category": "Database & Cache",
+    "slug": "amazondynamodb",
+    "hex": "#4053D6",
+    "keywords": [
+      "dynamodb",
+      "aws",
+      "serverless",
+      "database"
+    ]
+  },
+  {
+    "id": "mariadb",
+    "name": "MariaDB",
+    "category": "Database & Cache",
+    "slug": "mariadb",
+    "hex": "#003545",
+    "keywords": [
+      "mariadb",
+      "database",
+      "sql"
+    ]
+  },
+  {
+    "id": "neo4j",
+    "name": "Neo4j",
+    "category": "Database & Cache",
+    "slug": "neo4j",
+    "hex": "#4581C3",
+    "keywords": [
+      "neo4j",
+      "graph",
+      "database"
+    ]
+  },
+  {
+    "id": "planetscale",
+    "name": "PlanetScale",
+    "category": "Database & Cache",
+    "slug": "planetscale",
+    "hex": "#000000",
+    "keywords": [
+      "planetscale",
+      "database",
+      "mysql"
+    ]
+  },
+  {
+    "id": "cockroachdb",
+    "name": "CockroachDB",
+    "category": "Database & Cache",
+    "slug": "cockroachlabs",
+    "hex": "#6933FF",
+    "keywords": [
+      "cockroachdb",
+      "distributed",
+      "sql"
+    ]
+  },
+  {
+    "id": "azure",
+    "name": "Microsoft Azure",
+    "category": "Cloud & Hosting",
+    "slug": "microsoftazure",
+    "hex": "#0078D4",
+    "keywords": [
+      "microsoft azure",
+      "azure",
+      "microsoft",
+      "enterprise",
+      "cloud"
+    ]
+  },
+  {
+    "id": "azure-functions",
+    "name": "Azure Functions",
+    "category": "Cloud & Hosting",
+    "slug": "microsoftazure",
+    "hex": "#0078D4",
+    "keywords": [
+      "azure functions",
+      "azure",
+      "microsoft",
+      "serverless"
+    ]
+  },
+  {
+    "id": "azure-container-apps",
+    "name": "Azure Container Apps",
+    "category": "Cloud & Hosting",
+    "slug": "microsoftazure",
+    "hex": "#0078D4",
+    "keywords": [
+      "azure container apps",
+      "azure",
+      "microsoft",
+      "containers",
+      "microservices"
+    ]
+  },
+  {
+    "id": "aws",
+    "name": "AWS",
+    "category": "Cloud & Hosting",
+    "slug": "amazonaws",
+    "hex": "#232F3E",
+    "keywords": [
+      "aws",
+      "cloud",
+      "aws",
+      "hosting"
+    ]
+  },
+  {
+    "id": "google-cloud",
+    "name": "Google Cloud",
+    "category": "Cloud & Hosting",
+    "slug": "googlecloud",
+    "hex": "#4285F4",
+    "keywords": [
+      "google cloud",
+      "cloud",
+      "google",
+      "hosting"
+    ]
+  },
+  {
+    "id": "cloudflare",
+    "name": "Cloudflare",
+    "category": "Cloud & Hosting",
+    "slug": "cloudflare",
+    "hex": "#F38020",
+    "keywords": [
+      "cloudflare",
+      "edge",
+      "web",
+      "hosting"
+    ]
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "category": "Cloud & Hosting",
+    "slug": "vercel",
+    "hex": "#000000",
+    "keywords": [
+      "vercel",
+      "next.js",
+      "web",
+      "saas",
+      "hosting"
+    ]
+  },
+  {
+    "id": "netlify",
+    "name": "Netlify",
+    "category": "Cloud & Hosting",
+    "slug": "netlify",
+    "hex": "#00C7B7",
+    "keywords": [
+      "netlify",
+      "web",
+      "hosting"
+    ]
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "category": "Cloud & Hosting",
+    "slug": "docker",
+    "hex": "#2496ED",
+    "keywords": [
+      "docker",
+      "container",
+      "backend",
+      "devops"
+    ]
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "category": "Cloud & Hosting",
+    "slug": "kubernetes",
+    "hex": "#326CE5",
+    "keywords": [
+      "kubernetes",
+      "enterprise",
+      "cloud",
+      "container",
+      "orchestration"
+    ]
+  },
+  {
+    "id": "terraform",
+    "name": "Terraform",
+    "category": "Cloud & Hosting",
+    "slug": "terraform",
+    "hex": "#844FBA",
+    "keywords": [
+      "terraform",
+      "cloud",
+      "infrastructure",
+      "devops"
+    ]
+  },
+  {
+    "id": "github-actions",
+    "name": "GitHub Actions",
+    "category": "Cloud & Hosting",
+    "slug": "githubactions",
+    "hex": "#2088FF",
+    "keywords": [
+      "github actions",
+      "ci",
+      "cd",
+      "devops"
+    ]
+  },
+  {
+    "id": "gitlab",
+    "name": "GitLab",
+    "category": "Cloud & Hosting",
+    "slug": "gitlab",
+    "hex": "#FC6D26",
+    "keywords": [
+      "gitlab",
+      "ci",
+      "devops"
+    ]
+  },
+  {
+    "id": "digitalocean",
+    "name": "DigitalOcean",
+    "category": "Cloud & Hosting",
+    "slug": "digitalocean",
+    "hex": "#0080FF",
+    "keywords": [
+      "digitalocean",
+      "cloud",
+      "hosting"
+    ]
+  },
+  {
+    "id": "render",
+    "name": "Render",
+    "category": "Cloud & Hosting",
+    "slug": "render",
+    "hex": "#000000",
+    "keywords": [
+      "render",
+      "backend",
+      "web",
+      "hosting"
+    ]
+  },
+  {
+    "id": "railway",
+    "name": "Railway",
+    "category": "Cloud & Hosting",
+    "slug": "railway",
+    "hex": "#0B0D0E",
+    "keywords": [
+      "railway",
+      "backend",
+      "web",
+      "hosting"
+    ]
+  },
+  {
+    "id": "flyio",
+    "name": "Fly.io",
+    "category": "Cloud & Hosting",
+    "slug": "flydotio",
+    "hex": "#24175B",
+    "keywords": [
+      "fly.io",
+      "edge",
+      "backend",
+      "hosting"
+    ]
+  },
+  {
+    "id": "aws-lambda",
+    "name": "AWS Lambda",
+    "category": "Cloud & Hosting",
+    "slug": "awslambda",
+    "hex": "#FF9900",
+    "keywords": [
+      "aws lambda",
+      "aws",
+      "serverless"
+    ]
+  },
+  {
+    "id": "amazon-s3",
+    "name": "Amazon S3",
+    "category": "Cloud & Hosting",
+    "slug": "amazons3",
+    "hex": "#569A31",
+    "keywords": [
+      "amazon s3",
+      "aws",
+      "media",
+      "storage"
+    ]
+  },
+  {
+    "id": "nginx",
+    "name": "NGINX",
+    "category": "Cloud & Hosting",
+    "slug": "nginx",
+    "hex": "#009639",
+    "keywords": [
+      "nginx",
+      "web",
+      "proxy",
+      "streaming"
+    ]
+  },
+  {
+    "id": "grafana",
+    "name": "Grafana",
+    "category": "Cloud & Hosting",
+    "slug": "grafana",
+    "hex": "#F46800",
+    "keywords": [
+      "grafana",
+      "observability",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "prometheus",
+    "name": "Prometheus",
+    "category": "Cloud & Hosting",
+    "slug": "prometheus",
+    "hex": "#E6522C",
+    "keywords": [
+      "prometheus",
+      "monitoring",
+      "metrics"
+    ]
+  },
+  {
+    "id": "sentry",
+    "name": "Sentry",
+    "category": "Cloud & Hosting",
+    "slug": "sentry",
+    "hex": "#362D59",
+    "keywords": [
+      "sentry",
+      "monitoring",
+      "errors"
+    ]
+  },
+  {
+    "id": "datadog",
+    "name": "Datadog",
+    "category": "Cloud & Hosting",
+    "slug": "datadog",
+    "hex": "#632CA6",
+    "keywords": [
+      "datadog",
+      "enterprise",
+      "monitoring"
+    ]
+  },
+  {
+    "id": "opentelemetry",
+    "name": "OpenTelemetry",
+    "category": "Cloud & Hosting",
+    "slug": "opentelemetry",
+    "hex": "#000000",
+    "keywords": [
+      "opentelemetry",
+      "observability",
+      "tracing"
+    ]
+  },
+  {
+    "id": "ansible",
+    "name": "Ansible",
+    "category": "Cloud & Hosting",
+    "slug": "ansible",
+    "hex": "#EE0000",
+    "keywords": [
+      "ansible",
+      "devops",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "pulumi",
+    "name": "Pulumi",
+    "category": "Cloud & Hosting",
+    "slug": "pulumi",
+    "hex": "#8A3391",
+    "keywords": [
+      "pulumi",
+      "cloud",
+      "infrastructure"
+    ]
+  },
+  {
+    "id": "argo-cd",
+    "name": "Argo CD",
+    "category": "Cloud & Hosting",
+    "slug": "argo",
+    "hex": "#EF7B4D",
+    "keywords": [
+      "argo cd",
+      "kubernetes",
+      "gitops"
+    ]
+  }
+]

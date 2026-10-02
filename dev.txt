@@ -1,0 +1,17 @@
+Jev POC is available at http://localhost:5173
+
+Start both servers from this directory:
+  ./scripts/dev.sh
+
+The launcher uses the project's Python environment and the Node runtime downloaded for this session. Standard setup instructions for other machines are in README.md.
+
+Backend: http://localhost:8000
+Interactive API docs: http://localhost:8000/docs
+API key configuration: backend/.env
+Catalog: shared/catalog.json (140 technologies)
+
+Validation completed:
+- Production frontend build
+- 10 backend tests
+- 3 desktop/mobile browser tests
+- Live System One request with the configured key
