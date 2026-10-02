@@ -1,6 +1,6 @@
 # Jev POC
 
-Describe a project and watch technologies assemble from a scattered SVG logo pile into categorized recommendations. React 18, Vite, TypeScript, Tailwind, Framer Motion, and FastAPI with Pydantic v2 power the app.
+Describe a project and watch technologies assemble from a scattered SVG logo pile into a compact grid with category labels on every tile. React 18, Vite, TypeScript, Tailwind, Framer Motion, and FastAPI with Pydantic v2 power the app.
 
 ## Run locally
 
@@ -31,7 +31,7 @@ Missing/placeholder keys, timeouts (12 seconds), rejected requests, and invalid 
 
 Cost is estimated from reported input tokens using $42 per billion input tokens ([TypeSafe pricing](https://typesafe.ai/)); the `≈` badge identifies estimates. Fallback queries cost $0. Missing usage is not fabricated. Latency measures the entire backend classification request, including any failed upstream attempt.
 
-Search is debounced by 700 ms. Enter submits immediately. Clearing aborts pending requests, discards stale responses, and returns all logos to deterministic randomized positions. Every technology uses `layoutId="logo-{id}"` and the requested spring (350 stiffness, 28 damping). Reduced motion and responsive mobile layouts are supported.
+Search submits immediately when the prompt changes, including sample-prompt clicks. Enter also submits immediately. Clearing aborts pending requests, discards stale responses, and returns all logos to deterministic randomized positions. Every technology uses `layoutId="logo-{id}"` and the requested spring (350 stiffness, 28 damping). Reduced motion and responsive mobile layouts are supported.
 
 ## Catalog and brand assets
 
@@ -69,4 +69,7 @@ PYTHONPATH=. python scripts/check-live.py
 - `GET /api/catalog` — complete catalog
 - `POST /api/classify` — `{ "prompt": "Enterprise multi-agent workflow on Microsoft stack" }`
 
-The response contains matches (`id`, `confidence`), engine, latency, estimated cost, and a fallback reason when applicable. Prompts are trimmed and limited to 2,000 characters. Development CORS allows localhost:5173 and 127.0.0.1:5173. This POC keeps the catalog in memory and has no database.
+The response contains matches (`id`, `confidence`), engine, latency, input/output token counts, estimated cost, and a fallback reason when applicable. Prompts are trimmed and limited to 2,000 characters. Development CORS allows localhost:5173 and 127.0.0.1:5173. This POC keeps the catalog in memory and has no database.
+
+The canvas uses a compact layout that fits all 30 possible recommendations at 1280 × 720. Eight example prompts include bakery websites, microservices, mobile apps, RAG, and streaming pipelines. Token counters in the top-right header show reported usage for the latest query; missing usage displays as “—”, while a local-only fallback displays zero. Usage is measured for the consolidated query, not attributed to individual categories.
+# jevpoc
