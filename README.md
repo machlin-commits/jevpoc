@@ -70,3 +70,4 @@ The response contains matches (`id`, `confidence`), engine, latency, input/outpu
 
 The canvas uses a compact layout that fits all 30 possible recommendations at 1280 × 720. Eight example prompts include bakery websites, microservices, mobile apps, RAG, and streaming pipelines. Token counters in the top-right header show reported usage for the latest query; missing usage displays as “—”, while a local-only fallback displays zero. Usage is measured for the consolidated query, not attributed to individual categories.
 # jevpoc
+# jevpoc
