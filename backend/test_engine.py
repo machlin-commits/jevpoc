@@ -41,12 +41,13 @@ def test_one_consolidated_call_and_probabilities(monkeypatch):
         payload=json.loads(request.content)
         assert len(payload['questions']) == 140
         assert payload['model'] == 'jev-latest'
-        return httpx.Response(200,json={'answers':{t['id']:{'type':'noul','noul':.98 if t['id']=='swift' else .1} for t in engine.CATALOG},'usage':{'input_tokens':1000}})
+        return httpx.Response(200,json={'answers':{t['id']:{'type':'noul','noul':.98 if t['id']=='swift' else .1} for t in engine.CATALOG},'usage':{'input_tokens':1000,'output_tokens':140}})
     original=httpx.AsyncClient
     monkeypatch.setattr(engine.httpx,'AsyncClient',lambda **kwargs:original(transport=httpx.MockTransport(handler)))
-    matches,name,cost,estimated,reason=asyncio.run(engine.classify('native app'))
+    matches,name,cost,estimated,reason,usage=asyncio.run(engine.classify('native app'))
+    assert usage == {'input_tokens':1000,'output_tokens':140}
     assert len(calls)==1 and matches==[{'id':'swift','confidence':.98}]
-    assert name=='Jay API (System One)' and cost==.000042 and estimated and reason is None
+    assert name=='Typesafe (System One)' and cost==.000042 and estimated and reason is None
 
 @pytest.mark.parametrize('mode',['timeout','unauthorized','malformed'])
 def test_upstream_failures_fall_back(monkeypatch,mode):
@@ -57,5 +58,5 @@ def test_upstream_failures_fall_back(monkeypatch,mode):
         return httpx.Response(200,json={'answers':{'swift':{'noul':'invalid'}}})
     original=httpx.AsyncClient
     monkeypatch.setattr(engine.httpx,'AsyncClient',lambda **kwargs:original(transport=httpx.MockTransport(handler)))
-    matches,name,cost,estimated,reason=asyncio.run(engine.classify('ios native app'))
+    matches,name,cost,estimated,reason,usage=asyncio.run(engine.classify('ios native app'))
     assert matches and name=='Keyword Heuristic Fallback' and cost==0 and not estimated and reason

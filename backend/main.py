@@ -32,6 +32,8 @@ class Result(BaseModel):
     cost_usd: float | None
     cost_estimated: bool
     reason: str | None = None
+    input_tokens: int | None = None
+    output_tokens: int | None = None
 
 @app.get('/api/health')
 async def health():
@@ -44,8 +46,8 @@ async def catalog():
 @app.post('/api/classify', response_model=Result)
 async def recommend(query: Query):
     started = time.perf_counter()
-    matches, engine, cost, estimated, reason = await classify(query.prompt)
-    return Result(matches=matches, engine=engine, latency_ms=round((time.perf_counter()-started)*1000), cost_usd=cost, cost_estimated=estimated, reason=reason)
+    matches, engine, cost, estimated, reason, usage = await classify(query.prompt)
+    return Result(matches=matches, engine=engine, latency_ms=round((time.perf_counter()-started)*1000), cost_usd=cost, cost_estimated=estimated, reason=reason, **usage)
 
 if __name__ == '__main__':
     import uvicorn

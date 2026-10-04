@@ -13,6 +13,8 @@ PROFILES = [
     (r'\b(cross-platform|cross platform)\b', ['react-native','flutter','kotlin-multiplatform','tauri']),
     (r'\b(android|mobile)\b', ['kotlin','android','react-native','flutter','firebase']),
     (r'\b(realtime|real-time|real time|chat)\b', ['typescript','nodejs','socketio','redis','postgresql']),
+    (r'\b(microservices?|micro-service)\b', ['go','fastapi','grpc','docker','kubernetes','postgresql','redis','opentelemetry']),
+    (r'\b(bakery|restaurant|small business)\b', ['typescript','astro','tailwind-css','vercel']),
     (r'\b(website|web app|dashboard)\b', ['typescript','react','tailwind-css','fastapi','postgresql','vercel']),
 ]
 
@@ -52,7 +54,7 @@ def configured_key():
 async def classify(prompt):
     key = configured_key()
     if not key:
-        return heuristic(prompt), 'Keyword Heuristic Fallback', 0.0, False, 'API key is not configured.'
+        return heuristic(prompt), 'Keyword Heuristic Fallback', 0.0, False, 'API key is not configured.', {'input_tokens': 0, 'output_tokens': 0}
     # One consolidated request; independent binary relevance probabilities per technology.
     questions = {t['id']: {'type': 'noul', 'instructions':
         f"Would {t['name']} ({t['category']}; {', '.join(t['keywords'][1:])}) be a strong, relevant technology recommendation for the requested project? Prefer a focused stack, avoid unrelated technologies."}
@@ -73,13 +75,16 @@ async def classify(prompt):
                 raise ValueError('Invalid probability')
             scores[t['id']] = value
         # Estimated from official input-token pricing ($42 / billion); never fabricated usage.
-        tokens = data.get('usage', {}).get('input_tokens')
+        usage = {field: value if type(value) is int and value >= 0 else None
+                 for field in ('input_tokens', 'output_tokens')
+                 for value in [data.get('usage', {}).get(field)]}
+        tokens = usage['input_tokens']
         cost = tokens * 42 / 1_000_000_000 if isinstance(tokens, int) and tokens >= 0 else None
-        return select(scores), 'Jay API (System One)', cost, True, None
+        return select(scores), 'Typesafe (System One)', cost, True, None, usage
     except httpx.TimeoutException:
         reason = 'System One timed out; showing keyword matches.'
     except httpx.HTTPStatusError as exc:
         reason = f'System One returned HTTP {exc.response.status_code}; showing keyword matches.'
     except (httpx.RequestError, ValueError, KeyError, TypeError):
         reason = 'System One is unavailable or returned an invalid response; showing keyword matches.'
-    return heuristic(prompt), 'Keyword Heuristic Fallback', 0.0, False, reason
+    return heuristic(prompt), 'Keyword Heuristic Fallback', 0.0, False, reason, {'input_tokens': None, 'output_tokens': None}

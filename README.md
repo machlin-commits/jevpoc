@@ -7,22 +7,16 @@ Describe a project and watch technologies assemble from a scattered SVG logo pil
 
 ## Run locally
 
-Requires Node.js 20.19+ (or 22.12+) and Python 3.11+.
+Requires Python 3.11+. Start both development servers with:
 
 ```sh
-python3.11 -m venv .venv
-source .venv/bin/activate
-pip install -r backend/requirements.txt
-python -m backend.main
+./scripts/dev.sh
 ```
 
-In a second terminal:
-
-```sh
-cd frontend
-npm ci
-npm run dev
-```
+On first run, the script creates the Python virtual environment and installs
+backend and frontend dependencies when needed. It uses Node.js 20.19+ or
+22.12+ if already installed; otherwise, it downloads and verifies Node.js
+22.16.0. Press **Ctrl+C** to stop both servers.
 
 Open **http://localhost:5173**. FastAPI listens on port 8000; Vite proxies `/api` requests to it. `backend/.env` is already configured, and `backend/.env.example` mirrors the supplied template. The backend loads that file with `load_dotenv()` using an absolute path. Environment variables take precedence. Change `JEV_API_KEY` in the environment file when needed. The key stays server-side.
 
