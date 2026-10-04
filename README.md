@@ -2,6 +2,9 @@
 
 Describe a project and watch technologies assemble from a scattered SVG logo pile into a compact grid with category labels on every tile. React 18, Vite, TypeScript, Tailwind, Framer Motion, and FastAPI with Pydantic v2 power the app.
 
+<img width="853" height="800" alt="image" src="https://github.com/user-attachments/assets/67f1bc3c-39f9-4053-b55c-096ec8f69dd2" />
+
+
 ## Run locally
 
 Requires Node.js 20.19+ (or 22.12+) and Python 3.11+.
